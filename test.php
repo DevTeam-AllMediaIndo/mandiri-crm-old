@@ -329,9 +329,11 @@
                 <div style='max-width: 1000px; margin: auto;padding: 20px'></div>
             </body>
         </html>
+        test
         ";
         $mail->send();
         echo 'Please check email '.$MBR_EMAIL;
     } catch (Exception $e) {
         echo 'Exception Occured';
+
     }

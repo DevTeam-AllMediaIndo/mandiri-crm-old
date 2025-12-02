@@ -1,7 +1,6 @@
 <?php
     if($user1["ADM_LEVEL"] == 6 || $user1["ADM_LEVEL"] == 1){
     $x = addslashes(mysqli_real_escape_string($db, stripslashes(strip_tags($_GET['x']))));
-
     $SQL_QUERY = mysqli_query($db,"
         SELECT
             tb_dpwd.ID_DPWD,

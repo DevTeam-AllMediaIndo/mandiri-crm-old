@@ -30,6 +30,8 @@
                 tb_acccond.ACCCND_AMOUNTMARGIN,
                 tb_acccond.ACCCND_CASH_FOREX,
                 tb_acccond.ACCCND_CASH_LOCO,
+                tb_acccond.ACCCND_CASH_OIL,
+                tb_acccond.ACCCND_CASH_SILVER,
                 tb_acccond.ACCCND_CASH_JPK50,
                 tb_acccond.ACCCND_CASH_JPK30,
                 tb_acccond.ACCCND_CASH_HK50,
@@ -131,8 +133,8 @@
                                         // $ib = form_input($_POST['ib']);
                                         $note_accept = form_input($_POST['note_accept']);
                                         
-                                        // $REQ_ARR = (strtolower($ACC_PRODUCT) == strtolower('Forex dan Gold')) ? ["ACCCND_CASH_FOREX" => 'forex', "ACCCND_CASH_LOCO" => 'loco'] : ((strtolower($ACC_PRODUCT) == strtolower('Multilateral')) ? ["ACCCND_CASH_JPK50" => 'jpk50', "ACCCND_CASH_JPK30" => 'jpk30', "ACCCND_CASH_HK50" => 'hk50', "ACCCND_CASH_KRJ35" => 'krj35'] : []);
-                                        $REQ_ARR = (strtolower($ACC_PRODUCT) == strtolower('1')) ? ["ACCCND_CASH_FOREX" => 'forex', "ACCCND_CASH_LOCO" => 'loco'] : ((strtolower($ACC_PRODUCT) == strtolower('Multilateral')) ? ["ACCCND_CASH_JPK50" => 'jpk50', "ACCCND_CASH_JPK30" => 'jpk30', "ACCCND_CASH_HK50" => 'hk50', "ACCCND_CASH_KRJ35" => 'krj35'] : []);
+                                        // $REQ_ARR = (strtolower($ACC_PRODUCT) == strtolower('Forex dan Gold')) ? ["ACCCND_CASH_OIL" => 'oil', "ACCCND_CASH_LOCO" => 'loco', "ACCCND_CASH_SILVER" => 'silver'] : ((strtolower($ACC_PRODUCT) == strtolower('Multilateral')) ? ["ACCCND_CASH_JPK50" => 'jpk50', "ACCCND_CASH_JPK30" => 'jpk30', "ACCCND_CASH_HK50" => 'hk50', "ACCCND_CASH_KRJ35" => 'krj35'] : []);
+                                        $REQ_ARR = (strtolower($ACC_PRODUCT) == strtolower('1')) ? ["ACCCND_CASH_OIL" => 'oil', "ACCCND_CASH_LOCO" => 'loco', "ACCCND_CASH_SILVER" => 'silver'] : ((strtolower($ACC_PRODUCT) == strtolower('Multilateral')) ? ["ACCCND_CASH_JPK50" => 'jpk50', "ACCCND_CASH_JPK30" => 'jpk30', "ACCCND_CASH_HK50" => 'hk50', "ACCCND_CASH_KRJ35" => 'krj35'] : []);
                                         $FLTR_AR = array_filter($REQ_ARR, function($v, $k){
                                             return (!empty($_POST["$v"]));
                                         }, ARRAY_FILTER_USE_BOTH);
@@ -442,7 +444,7 @@
                                                 'chat_id' => $chat_id_othr,
                                                 'text' => $mesg_othr
                                             ];
-                                            http_request('https://api.telegram.org/bot'.$token_othr.'/sendMessage?'.http_build_query($request_params_othr));
+                                            http_request('https://api.telegram.org/bot'.$token_othr.'/sendMessage?'.http_build_query($request_pasrams_othr));
 
                                             die("<script>alert('Login dan password account telah berhasil terkirim');location.href = 'home.php?page=member_realacc'</script>");
                                         } catch (Exception $e) {
@@ -651,13 +653,17 @@
             <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){?>
                 <div class="row mt-2">
                     <div class="col-md-3" style="margin-block: auto;">Commission Charge</div>
-                    <div class="col-md-1" style="margin-block: auto;">Forex</div>
-                    <div class="col-md-3" style="margin-block: auto;">
-                        <input type="number" class="form-control" name="forex" value="<?php echo $RESULT_QUERY['ACCCND_CASH_FOREX']?>" required>
+                    <div class="col-md-1" style="margin-block: auto;">Oil</div>
+                    <div class="col-md-2" style="margin-block: auto;">
+                        <input type="number" class="form-control" name="oil" value="<?php echo $RESULT_QUERY['ACCCND_CASH_OIL']?>" required>
                     </div>
                     <div class="col-md-1 text-right" style="margin-block: auto;">Locco</div>
-                    <div class="col-md-3" style="margin-block: auto;">
+                    <div class="col-md-2" style="margin-block: auto;">
                         <input type="number" class="form-control" name="loco" value="<?php echo $RESULT_QUERY['ACCCND_CASH_LOCO']?>" required>
+                    </div>
+                    <div class="col-md-1 text-right" style="margin-block: auto;">Silver</div>
+                    <div class="col-md-2" style="margin-block: auto;">
+                        <input type="number" class="form-control" name="silver" value="<?php echo $RESULT_QUERY['ACCCND_CASH_SILVER']?>" required>
                     </div>
                 </div>
             <?php }else if($RESULT_QUERY['ACC_PRODUCT'] == 'Multilateral'){?>

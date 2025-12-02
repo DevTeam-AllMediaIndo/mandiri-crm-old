@@ -140,48 +140,52 @@
                                 $ib = form_input($_POST['ib']);
                                 // if($RESULT_QUERY['ACC_PRODUCT'] == 'Forex dan Gold'){
                                 if($RESULT_QUERY['ACC_PRODUCT'] == '1'){
-                                    if(isset($_POST['forex'])){
+                                    if(isset($_POST['oil'])){
                                         if(isset($_POST['loco'])){
-                                            $forex = form_input($_POST['forex']);
-                                            $loco = form_input($_POST['loco']);
+                                            if(isset($_POST['silver'])){
+                                                $oil = form_input($_POST['oil']);
+                                                $loco = form_input($_POST['loco']);
+                                                $silver = form_input($_POST['silver']);
 
-                                            mysqli_query($db,'
-                                                INSERT INTO tb_acccond SET
-                                                tb_acccond.ACCCND_MBR = '.$RESULT_QUERY['MBR_ID'].',
-                                                tb_acccond.ACCCND_ACC = '.$RESULT_QUERY['ID_ACC'].',
-                                                tb_acccond.ACCCND_AMOUNTMARGIN = '.$RESULT_QUERY['DPWD_AMOUNT'].',
-                                                tb_acccond.ACCCND_CASH_FOREX = '.$forex.',
-                                                tb_acccond.ACCCND_CASH_LOCO = '.$loco.',
-                                                tb_acccond.ACCCND_LOGIN = "'.$login.'",
-                                                tb_acccond.ACCCND_IB = '.$ib.',
-                                                tb_acccond.ACCCND_DATEMARGIN = "'.date('Y-m-d H:i:s').'"
-                                            ') or die(mysqli_error($db).' - 1');
+                                                mysqli_query($db,'
+                                                    INSERT INTO tb_acccond SET
+                                                    tb_acccond.ACCCND_MBR = '.$RESULT_QUERY['MBR_ID'].',
+                                                    tb_acccond.ACCCND_ACC = '.$RESULT_QUERY['ID_ACC'].',
+                                                    tb_acccond.ACCCND_AMOUNTMARGIN = '.$RESULT_QUERY['DPWD_AMOUNT'].',
+                                                    tb_acccond.ACCCND_CASH_OIL = '.$oil.',
+                                                    tb_acccond.ACCCND_CASH_LOCO = '.$loco.',
+                                                    tb_acccond.ACCCND_CASH_SILVER = '.$silver.',
+                                                    tb_acccond.ACCCND_LOGIN = "'.$login.'",
+                                                    tb_acccond.ACCCND_IB = '.$ib.',
+                                                    tb_acccond.ACCCND_DATEMARGIN = "'.date('Y-m-d H:i:s').'"
+                                                ') or die(mysqli_error($db).' - 1');
 
-                                            // echo 'INSERT INTO tb_acccond SET
-                                            // tb_acccond.ACCCND_MBR = '.$RESULT_QUERY['MBR_ID'].',
-                                            // tb_acccond.ACCCND_ACC = '.$RESULT_QUERY['ID_ACC'].',
-                                            // tb_acccond.ACCCND_AMOUNTMARGIN = '.$RESULT_QUERY['DPWD_AMOUNT'].',
-                                            // tb_acccond.ACCCND_CASH_FOREX = '.$forex.',
-                                            // tb_acccond.ACCCND_CASH_LOCO = '.$loco.',
-                                            // tb_acccond.ACCCND_LOGIN = "'.$login.'",
-                                            // tb_acccond.ACCCND_DATEMARGIN = (CURRENT_TIMESTAMP)<br>';
+                                                // echo 'INSERT INTO tb_acccond SET
+                                                // tb_acccond.ACCCND_MBR = '.$RESULT_QUERY['MBR_ID'].',
+                                                // tb_acccond.ACCCND_ACC = '.$RESULT_QUERY['ID_ACC'].',
+                                                // tb_acccond.ACCCND_AMOUNTMARGIN = '.$RESULT_QUERY['DPWD_AMOUNT'].',
+                                                // tb_acccond.ACCCND_CASH_OIL = '.$oil.',
+                                                // tb_acccond.ACCCND_CASH_LOCO = '.$loco.',
+                                                // tb_acccond.ACCCND_CASH_SILVER = '.$silver.',
+                                                // tb_acccond.ACCCND_LOGIN = "'.$login.'",
+                                                // tb_acccond.ACCCND_DATEMARGIN = (CURRENT_TIMESTAMP)<br>';
 
-                                            mysqli_query($db, '
-                                                UPDATE tb_dpwd SET
-                                                tb_dpwd.DPWD_VOUCHER = "'.$voucher.'",
-                                                tb_dpwd.DPWD_STS = -1,
-                                                tb_dpwd.DPWD_DATETIME = "'.date('Y-m-d H:i:s').'"
-                                                WHERE tb_dpwd.ID_DPWD = '.$RESULT_QUERY['ID_DPWD'].'
-                                            ') or die (mysqli_error($db).' - 2');
-                                            
-                                            // echo 'UPDATE tb_dpwd SET
-                                            // tb_dpwd.DPWD_VOUCHER = "'.$voucher.'",
-                                            // tb_dpwd.DPWD_STS = -1,
-                                            // tb_dpwd.DPWD_DATETIME = "'.date('Y-m-d H:i:s').'"
-                                            // WHERE tb_dpwd.ID_DPWD = "'.$RESULT_QUERY['ID_DPWD'].'<br>';
-                                            
+                                                mysqli_query($db, '
+                                                    UPDATE tb_dpwd SET
+                                                    tb_dpwd.DPWD_VOUCHER = "'.$voucher.'",
+                                                    tb_dpwd.DPWD_STS = -1,
+                                                    tb_dpwd.DPWD_DATETIME = "'.date('Y-m-d H:i:s').'"
+                                                    WHERE tb_dpwd.ID_DPWD = '.$RESULT_QUERY['ID_DPWD'].'
+                                                ') or die (mysqli_error($db).' - 2');
+                                                
+                                                // echo 'UPDATE tb_dpwd SET
+                                                // tb_dpwd.DPWD_VOUCHER = "'.$voucher.'",
+                                                // tb_dpwd.DPWD_STS = -1,
+                                                // tb_dpwd.DPWD_DATETIME = "'.date('Y-m-d H:i:s').'"
+                                                // WHERE tb_dpwd.ID_DPWD = "'.$RESULT_QUERY['ID_DPWD'].'<br>';
+                                            } else { die("<script>alert('Silver');location.href = 'home.php?page=member_realacc_detail&action=detail&x=".$x."&sub_page=wp_check1'</script>"); };
                                         } else { die("<script>alert('No loco');location.href = 'home.php?page=member_realacc_detail&action=detail&x=".$x."&sub_page=wp_check1'</script>"); };
-                                    } else { die("<script>alert('No forex');location.href = 'home.php?page=member_realacc_detail&action=detail&x=".$x."&sub_page=wp_check1'</script>"); };
+                                    } else { die("<script>alert('Oil');location.href = 'home.php?page=member_realacc_detail&action=detail&x=".$x."&sub_page=wp_check1'</script>"); };
                                 } else if($RESULT_QUERY['ACC_PRODUCT'] == 'Kontrak Berjangka Crued Oil' || $RESULT_QUERY['ACC_PRODUCT'] == 'Kontrak Gulir Valuta Asing/GO FOREX'){
                                     if(isset($_POST['jpk50'])){
                                         if(isset($_POST['jpk30'])){
@@ -491,9 +495,9 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-sm-2" style="margin-block: auto; visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'visible';}else{echo 'hidden';}?>;" id="forexdiv1">Forex</div>
+                <div class="col-sm-2" style="margin-block: auto; visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'visible';}else{echo 'hidden';}?>;" id="forexdiv1">Oil</div>
                 <div class="col-sm-4" id="forexinpt1" style="visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'visible';}else{echo 'hidden';}?>;">
-                    <select class="form-control text-center" name="forex" <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'required';}?>>
+                    <select class="form-control text-center" name="oil" <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'required';}?>>
                         <option value="0">Pilih Nilai</option>
                         <option value="10">10</option>
                         <option value="30">30</option>
@@ -523,6 +527,17 @@
                 <div class="col-sm-2 text-left" style="margin-block: auto; visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == 'Index Asia (Gulir)' || $RESULT_QUERY['ACC_PRODUCT'] == 'Kontrak Gulir Valuta Asing/GO FOREX'){ echo 'visible';}else{echo 'hidden';}?>;" id="indexdiv2"><i class="fa fa-tag" aria-hidden="true" ></i>JPK30</div>
                 <div class="col-sm-4" id="indexinpt2" style="visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == 'Index Asia (Gulir)' || $RESULT_QUERY['ACC_PRODUCT'] == 'Kontrak Gulir Valuta Asing/GO FOREX'){ echo 'visible';}else{echo 'hidden';}?>;">
                     <select class="form-control text-center" name="jpk30" <?php if($RESULT_QUERY['ACC_PRODUCT'] == 'Index Asia (Gulir)' || $RESULT_QUERY['ACC_PRODUCT'] == 'Kontrak Gulir Valuta Asing/GO FOREX'){ echo 'required';}?>>
+                        <option value="0">Pilih Nilai</option>
+                        <option value="10">10</option>
+                        <option value="30">30</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-sm-2" style="margin-block: auto; visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'visible';}else{echo 'hidden';}?>;" id="forexdiv3">Silver</div>
+                <div class="col-sm-4" id="forexinpt3" style="visibility : <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'visible';}else{echo 'hidden';}?>;">
+                    <select class="form-control text-center" name="silver" <?php if($RESULT_QUERY['ACC_PRODUCT'] == '1'){ echo 'required';}?>>
                         <option value="0">Pilih Nilai</option>
                         <option value="10">10</option>
                         <option value="30">30</option>

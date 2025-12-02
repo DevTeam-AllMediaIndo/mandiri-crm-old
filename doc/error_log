@@ -1,0 +1,767 @@
+[27-Dec-2022 00:03:26 Asia/Jakarta] PHP Warning:  require_once(../../vendor/autoload.php): failed to open stream: No such file or directory in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 00:03:26 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 00:03:37 Asia/Jakarta] PHP Warning:  require_once(../../vendor/autoload.php): failed to open stream: No such file or directory in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 00:03:37 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 00:07:28 Asia/Jakarta] PHP Warning:  require_once(../../vendor/autoload.php): failed to open stream: No such file or directory in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 00:07:28 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php on line 8
+[27-Dec-2022 08:46:26 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: could not find driver in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:45
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(45): PDO->__construct('mysql:host=loca...', 'tec38200_mobile...', 'Masuk@1224')
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(66): Ozdemir\Datatables\DB\MySQL->connect()
+#2 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/setting.php(18): Ozdemir\Datatables\Datatables->__construct(Object(Ozdemir\Datatables\DB\MySQL))
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(2): require_once('/home5/tec38200...')
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 45
+[27-Dec-2022 08:47:23 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 08:47:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 08:47:58 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 10:20:06 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 10:20:29 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_all_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 10:48:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_user_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 10:48:55 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_partner' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_user_ajax.php(64): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:51:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:51:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:51:47 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:51:47 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:54:04 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 11:54:04 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 12:11:34 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 12:11:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 12:11:44 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 12:11:44 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 13:12:16 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 13:12:17 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 13:12:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 13:12:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 14:26:31 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 14:26:31 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 14:26:38 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 14:26:38 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:47:20 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:47:20 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:49:52 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_dpwd.DPWD_STS' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:49:52 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:55:11 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:55:11 Asia/Jakarta] PHP Notice:  Undefined index: DPWD_STS in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php on line 30
+[27-Dec-2022 15:55:33 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:56:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 15:57:14 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:14:16 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:15:32 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:15:32 Asia/Jakarta] PHP Notice:  Undefined index: DPWD_DEVICE in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php on line 27
+[27-Dec-2022 16:16:11 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:26:22 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:26:22 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:26:27 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:28:00 Asia/Jakarta] PHP Notice:  Undefined index: DPWD_DEVICE in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Iterators/ColumnCollection.php on line 56
+[27-Dec-2022 16:28:00 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: Return value of Ozdemir\Datatables\Iterators\ColumnCollection::getByName() must be an instance of Ozdemir\Datatables\Column, null returned in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Iterators/ColumnCollection.php:56
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(167): Ozdemir\Datatables\Iterators\ColumnCollection->getByName('DPWD_DEVICE')
+#1 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(23): Ozdemir\Datatables\Datatables->hide('DPWD_DEVICE')
+#2 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Iterators/ColumnCollection.php on line 56
+[27-Dec-2022 16:38:29 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(42): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:38:29 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:42:24 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_dpwd.DPWD_STS' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(34): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:42:24 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 16:43:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(39): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 17:14:09 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_history_ajax.php(51): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[27-Dec-2022 17:18:17 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tec38200_real_mobileibftraders.tb_lacc' doesn't exist in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_deposit_pending_ajax.php(47): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[04-Jan-2023 14:17:25 Asia/Jakarta] PHP Notice:  Undefined index: ACC_WPCHECK in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_wp_ajax.php on line 25
+[04-Jan-2023 17:13:30 Asia/Jakarta] PHP Notice:  Undefined index: ID_ACC_HASH in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php on line 26
+[09-Jan-2023 15:38:07 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:38:09 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:38:09 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:38:10 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:38:10 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:39:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:50 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:40:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:19 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:21 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:21 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:41:21 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:04 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:44:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:45:21 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:47:33 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:49:46 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 15:50:56 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 16:02:10 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 16:44:40 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 16:56:24 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[09-Jan-2023 18:39:25 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 08:32:01 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 09:32:31 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 10:00:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 10:34:36 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 10:35:33 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 12:43:00 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 13:01:16 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 13:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 14:15:14 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 14:48:27 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 15:25:22 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 15:50:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 16:12:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 16:41:10 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:05:18 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:06:26 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:14:13 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:17:03 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:19:17 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:21:48 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:23:32 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:30:24 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:31:25 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 17:41:40 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[10-Jan-2023 18:12:10 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 08:17:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:02:43 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:03:26 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:07:13 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:12:34 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:12:45 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 15:14:48 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 17:01:29 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[11-Jan-2023 17:02:40 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 08:35:39 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 09:38:24 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 09:40:01 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 11:24:50 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 12:11:54 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 12:21:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 13:07:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 13:23:41 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 14:48:16 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 16:27:34 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 16:59:36 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 17:13:53 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 17:19:02 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 17:22:56 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 17:34:11 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 18:54:07 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 18:56:19 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:08:32 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:09:16 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:09:26 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:09:43 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:09:50 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:10:41 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:10:45 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:12:51 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:41:13 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[12-Jan-2023 19:41:17 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[13-Jan-2023 17:35:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[15-Jan-2023 22:32:11 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[16-Jan-2023 06:26:27 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[16-Jan-2023 06:40:50 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[16-Jan-2023 07:37:07 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[16-Jan-2023 13:28:29 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:28:56 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:31:36 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:31:39 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:34:34 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:38:59 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 13:41:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 14:58:37 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 14:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IF(tb_racc.ACC_LOGIN <> 0 AND tb_racc.ACC_WPCHECK = 6, "Active", "Unknown")
+ ...' at line 17 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(43): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[16-Jan-2023 18:02:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[17-Jan-2023 15:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[17-Jan-2023 15:30:23 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[17-Jan-2023 15:32:02 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[19-Jan-2023 13:55:00 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 13:55:55 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 13:57:04 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 13:58:30 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 14:00:14 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 14:02:11 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'IB_TIMESTAMP' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[19-Jan-2023 16:14:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ''#modal_insert'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php on line 16
+[19-Jan-2023 16:16:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ib_ajax.php on line 20
+[20-Jan-2023 10:38:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_DATETIME' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:39:33 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_DATETIME' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:40:42 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_DATETIME' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:40:59 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_DATETIME' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_DATETIME' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:42:44 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_KONTEN' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 10:42:55 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_ticket.TCKT_KONTEN' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/ticket_ajax.php(17): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[20-Jan-2023 13:50:27 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 13:55:29 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 13:56:29 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:00:31 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:11:00 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:15:07 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:25:00 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:35:00 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:35:28 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:36:55 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[21-Jan-2023 14:37:52 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[23-Jan-2023 15:31:40 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:22:40 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:24:25 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:24:38 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:24:48 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:24:58 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 09:25:09 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 11:00:06 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 11:20:11 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[24-Jan-2023 15:03:19 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_racc.ID_RACC' in 'where clause' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/member_realacc_ajax.php(85): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[26-Jan-2023 09:26:17 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[26-Jan-2023 09:50:42 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[26-Jan-2023 13:36:59 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+                    IF(tb_dpwd.DPWD_STS = 0, "Pending", "Unknown")
+        ...' at line 11 in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_history_ajax.php(34): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[26-Jan-2023 13:41:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_dpwd.ACC_RATE' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(40): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[26-Jan-2023 13:42:00 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tb_dpwd.ACC_RATE' in 'field list' in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php:70
+Stack trace:
+#0 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php(70): PDOStatement->execute(Array)
+#1 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(243): Ozdemir\Datatables\DB\MySQL->count(Object(Ozdemir\Datatables\Query))
+#2 /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/Datatables.php(195): Ozdemir\Datatables\Datatables->setResponseData()
+#3 /home5/tec38200/portal.techcrm.net/mxgnzk/doc/trans_withdrawal_pending_ajax.php(40): Ozdemir\Datatables\Datatables->generate()
+#4 {main}
+  thrown in /home5/tec38200/portal.techcrm.net/vendor/ozdemir/datatables/src/DB/MySQL.php on line 70
+[26-Jan-2023 16:46:57 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[26-Jan-2023 16:47:26 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[26-Jan-2023 23:56:34 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:25:38 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:25:46 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:30:36 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:37:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:40:45 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 08:53:29 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 09:01:18 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 10:40:41 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 10:57:20 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 11:00:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 11:04:38 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 14:14:53 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[27-Jan-2023 14:25:46 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[30-Jan-2023 12:29:38 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:37:24 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:38:22 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:39:02 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:39:14 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:45:44 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[31-Jan-2023 11:48:09 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[02-Feb-2023 15:50:27 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
+[02-Feb-2023 16:22:55 Asia/Jakarta] PHP Notice:  Undefined variable: login_page in /home5/tec38200/portal.techcrm.net/mxgnzk/doc/jadwal-temu_ajax1.php on line 22
